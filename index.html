@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Week 3 Homework Hangman Game</title>
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+		<script src="assets/javascript/game.js" type="text/javascript"></script>
+
+	</head>
+<body onload="initializeGame();">
+
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+
+					<a class="navbar-brand" href="#"></a><img src="assets/images/logo.gif" class="logo">
+					
+				</div>
+			</div>
+		</nav>
+
+
+		<div class="container-main-area">
+			<div class="row">	
+				<div class="col-xs-12">
+
+					<img id="picture" src="assets/images/hangman.png" class="rope">	
+
+				</div>			
+			</div>	
+		</div>
+
+		<div class="container-letter-guessed" id="LG">
+			<div class="row">	
+				<div class="col-xs-12">
+						<!-- shown-word -->
+					<div id="correct-guesses">
+					</div>
+						
+						<!-- CORRECT1 Inside when oage loads runt his intilize game and genrate 9 span tags & 9 underscores. Figure out how to get one span tage for each letter in the word. Either 0 base or 1 base indexOf gives you every instance of all letters you are looking for. Render span and call getElementById then correct 0 = e and replace them-->
+				</div>			
+			</div>	
+		</div>
+ 		 
+
+
+		<div class="jumbotron">
+			<div class="container-stats">
+				<div class=col-xs-4">
+					<div class="panel panel-primary">
+
+						<!-- validation-alert -->
+						<span id="resultWin" style="display:none;">You are a WINNER!</span>
+						<span id="resultLose" style="display:none;">YOU LOSE!</span>
+
+						<!-- letters-guessed -->
+						<h3>Letters Guessed</h3>
+						<div id="letters-guessed">
+						</div>
+
+						<!-- wins -->
+						<span id="wins-alert"> </span>
+						
+						
+						<!-- guesses-remaining -->
+						<!-- <span id="trys-remaining"></span> -->
+						<p>TRYS LEFT: <span id="trys-remaining">-1</span></p>
+
+					</div>	
+
+					<a href="javascript:location.reload();">Play Again</a>
+
+				</div>
+			</div>
+		</div>
+
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
