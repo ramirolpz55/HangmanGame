@@ -34,7 +34,7 @@ function initChosenPlaceholders() {
 
 
 
-// take in a letter as a parameter and check to see if it is valid check the `ropriate array, 
+// take in a letter as a parameter and check to see if it is valid check the `apropriate array, 
 // NOTE: This function() should take an input letter
 // call indexOf(word) simple if statement.
 function isLetterValid(letter) { 					//A Function that takes a letter and gives it a isLetterValid
