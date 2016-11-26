@@ -32,7 +32,7 @@ A Web based Javascript/ HTML5/ CSS application that randomly generates a word .
 * CSS 
 * JAVASCRIPT 
 * CSS
-* Morgan 
+
 
 ## License
 
