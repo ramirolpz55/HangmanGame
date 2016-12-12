@@ -4,7 +4,7 @@ A Web based Javascript/ HTML5/ CSS application that randomly generates a word .
 
 ## Live Demo
 
-[See Hangman Live- Click Here!](https://ramirolpz55.github.io/week-3-game/)
+[See Hangman Live- Click Here!](https://ramirolpz55.github.io/HangmanGame/)
 
 ![Hangman](assets/images/hangman.gif)
 
